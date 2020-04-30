@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                To Do List
+            </h1>
+        </div><!--end container-->
+        <div>
+            <form class="center-items" action="#">
+                <div class="input-group mb-3">
+                    <input id="input-task" type="text" class="form-control" placeholder="Enter task here">
+
+                    <div class="input-group-append">
+                      <button class="btn btn-secondary" type="button" id="button-addon2" onclick="Register();">
+                        Add Task
+                      </button>
+                    </div><!--end input group append-->
+                </div><!--end input group-->
+            </form>
+        </div><!--end form div-->
+    </header>
+    
+    <main>
+        <div>
+            <h2>
+                Tasks
+            </h2>
+            <ul id="list-task">
+
+            </ul>
+        </div><!--end tasks div-->
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

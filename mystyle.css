@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    height: 20vh;
+}
+
+.center-items {
+    text-align: center;
+}
+
+#input-task {
+    margin-left: 2rem;
+}
+
+#button-addon2 {
+    margin-right: 2rem;
+}
+
