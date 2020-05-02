@@ -12,7 +12,7 @@ function Register(){
     const newLi = document.createElement('li');
 
     // add the value
-    newLi.innerHTML = `<button class="btn btn-success" onclick="removeTask(${taskId});">Completed</button> ${inputTask.value}`;
+    newLi.innerHTML = `<button class="btn btn-success" onclick="removeTask(${taskId});">Completed</button> - ${inputTask.value}`;
 
     newLi.setAttribute('class','list-group-item');
 
